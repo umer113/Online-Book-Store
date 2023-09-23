@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="/static/css/indexresponsive.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<!--<link rel="stylesheet" type="html/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />-->
+
+<title>Virtual bookstore</title>
+
+
+<!-- socials -->
+<body>
+<div class="header1">
+<head>
+	<a href="https://www.facebook.com"><i1 class='bx bxl-facebook' ></i1></a>
+	<a href="https://www.youtube.com"><i2 class='bx bxl-youtube' ></i2></a>
+	<a href="https://www.linkedin.com"><i3 class='bx bxl-linkedin' ></i3></a>
+	<a href="https://www.twitter.com"><i4 class='bx bxl-twitter' ></i4></a>
+	<a href="https://www.blogm"><i5 class='bx bxl-blogger' ></i5></a>
+</head>
+</div>
+
+<div class="line">
+</div>
+<!-- socials end -->
+
+
+<!-- profile and search section start -->
+<div class="profile-section">
+
+<!--<div class="profile-photo">
+</div>-->
+
+<ul class="ser-bar">
+<li>
+
+<div class="search-bar">
+		<input type="search" placeholder="Type to Search" />
+		<a href=""><i class='bx bx-search-alt-2' ></i></a>
+</div></li>
+
+<div class="acc-cart-wishli">
+	<a href="{% url 'login' %}" id="acc-cart"><i class='bx bx-user' ></i></a>
+	<a href="{% url 'cart' %}" id="acc-cart"><i class='bx bx-cart' ></i></a>
+	<a href="http://" id="acc-cart"><i class='bx bx-heart' ></i></a>
+</div>
+
+</div>
+</ul>
+<!-- profile and search section start -->
+
+
+<!-- navigation bar start -->
+<nav id="navbar">
+<div class="container">
+	<ul class="nav">
+		<li><a href="{% url 'home' %}">HOME</a></li>
+		<!--<li>|</li>-->
+		<li><a href="{% url 'aboutus' %}">ABOUT US</a></li>
+		<!--<li>|</li>-->
+		<li><a href="{% url 'books' %}">BOOKS</a></li>
+		<!--<li>|</li>-->
+		<li><a href="#new_release">NEW RELEASE</a></li>
+		<!--<li>|</li>-->
+		<li><a href="#Contact">CONTACT US</a></li>
+		<!--<li>|</li>-->
+		<!--<li><a href="http://">BLOG</a></li>-->
+	</ul>
+</div>
+</nav>
+<!-- navigation bar end -->
+
+
+<!-- image slider start -->
+
+
+<div id="slider">
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <div id="slides">
+      <div id="overflow">
+         <div class="inner">
+            <div class="slide slide_1">
+               <div class="slide-content">
+                  <img src="static/images/sliderimg1.jpeg" alt="" />
+               </div>
+            </div>
+            <div class="slide slide_2">
+               <div class="slide-content">
+                  <img src="static/images/sliderimg2.jpeg" alt="" />
+               </div>
+            </div>
+            <div class="slide slide_3">
+               <div class="slide-content">
+                  <img src="static/images/sliderimg3.jpeg" alt="" />
+               </div>
+            </div>
+           
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+   </div>
+   <div id="bullets">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+
+   </div>
+   
+   <img class="slidebar" src="static/images/sliderbar.png" alt="" />
+</div>
+
+
+<!-- image slider end -->
+
+
+	<!-- Best Sellers start -->
+	
+	<div class="whole">
+    <div class="container4">
+
+        <div class="header">
+            <h1>Best Sellers</h1>
+        </div>
+
+        <div class="products">
+            
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/verity.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+					<a href="buynowpage.html" style="text-decoration: none;"><h3>Verity</h3></a>
+                    <span>Rs 1650</span>
+                </div>
+                <p>Cooleen Hoover</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/ariel.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Ariel</h3>
+                    <span>Rs 1270</span>
+                </div>
+                <p>Sylvia Plath</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/1984jo.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>1984</h3>
+                    <span>Rs 1450</span>
+                </div>
+                <p>George Orwell</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/theprophet.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Prophet</h3>
+                    <span>Rs 1100</span>
+                </div>
+                <p>Khalil Gibran</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+			</div>
+			
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/emma.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Emma</h3>
+                    <span>Rs 800</span>
+                </div>
+                <p>Jane Austin</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+			
+						
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/heidi.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Heidi</h3>
+                    <span>Rs 1340</span>
+                </div>
+                <p>Johanna Spyri</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+			
+						
+			{% comment %} <div class="product">
+                <div class="static/images/image">
+                    <img src="static/images/yazeed.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Yazeed</h3>
+                    <span>Rs 1560</span>
+                </div>
+                <p>Manto</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div> {% endcomment %}
+			
+						
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/pinocchio.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Pinocchio</h3>
+                    <span>Rs 1199</span>
+                </div>
+                <p>Carlo Collodi</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+		
+        </div>
+    </div>
+	</div>
+
+	<!-- Best Sellers end -->
+	
+	
+	
+	<!-- Recently Added start -->
+	
+	<div class="whole2" id="new_release">
+    <div class="container5">
+
+        <div class="header">
+            <h1>New Release</h1>
+        </div>
+
+        <div class="products">
+            
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/sawera.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Sawera</h3>
+                    <span>Rs 600</span>
+                </div>
+                <p>Muhammad Saleem</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/sin.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Sin</h3>
+                    <span>Rs 1295</span>
+                </div>
+                <p>Wajida Tabbasum</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/memory.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Memory</h3>
+                    <span>Rs 4091</span>
+                </div>
+                <p>Fergus Craik</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="image">
+                    <img src="static/images/art.jpg" alt="">
+                </div>
+                <div class="namePrice">
+					<h3>Art</h3>
+                    <span>Rs 8861</span>
+                </div>
+                <p>Andrew Graham</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+			</div>
+			
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/shazam.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Shazam!</h3>
+                    <span>Rs 2201</span>
+                </div>
+                <p>Yehudi Mercado</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+			
+						
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/blue-lock.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Blue Lock</h3>
+                    <span>Rs 2695</span>
+                </div>
+                <p>Muneyuki Kaneshiro</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+			
+						
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/the-island.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>The Island</h3>
+                    <span>Rs 2111</span>
+                </div>
+                <p>Natasha Preston</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+			
+						
+			<div class="product">
+                <div class="image">
+                    <img src="static/images/jihad.jpeg" alt="">
+                </div>
+                <div class="namePrice">
+                    <h3>Jihad</h3>
+                    <span>Rs 2605</span>
+                </div>
+                <p>Ahmed Rashid</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div><div class="bay">
+                    <button> Add To Cart </button>
+                </div>
+            </div>
+		
+        </div>
+    </div>
+	</div>
+	<!-- Recently Added end -->
+	
+
+<!-- footer start -->
+		
+<footer id="Contact">
+	<div class="container6">
+    <div class="row">
+      <div class="about-us-sec">
+        <h4 id="h4">About Us</h4>
+        <p id="p">Welcome to Bookify, your one-stop destination for all your book buying needs. At Bookify, we are passionate about books and believe that reading is not just a hobby, but a way of life. Our online bookstore is designed to cater to all your reading needs, with an extensive collection of books across various genres, from fiction and non-fiction to self-help and academic books. We understand that every reader has unique tastes and preferences, which is why we offer a personalized experience that allows you to browse through our curated collections and find the books that suit your interests. Whether you are looking for a gripping thriller or a heartwarming romance, our online bookstore has something for everyone.<p>
+      </div>
+	  <div class="conwitus">
+      <div class="cont-us">
+        <h4>Contact Us</h4>
+        <ul >
+			<li><i class='bx bx-phone'></i> +92 321 0045789</li>
+			<li>  |  </li>
+          	<li><a href="" ><i class='bx bx-envelope'></i> bookify@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="conec-us">
+        <h4>Connect with Us</h4>
+		<ul class="conwitus">
+		<li><a href="https://www.facebook.com"><i6 class='bx bxl-facebook' ></i6></a></li>
+		<li><a href="https://www.youtube.com"><i7 class='bx bxl-youtube' ></i7></a></li>
+		<li><a href="https://www.linkedin.com"><i8 class='bx bxl-linkedin' ></i8></a></li>
+		<li><a href="https://www.twitter.com"><i9 class='bx bxl-twitter' ></i9></a></li>
+		<li><a href="https://www.blogm"><i10 class='bx bxl-blogger' ></i10></a></li>
+		</ul>
+      </div>
+	  </div>
+    </div>
+    <p class="text-center">&copy; 2023 Bookify. All rights reserved.</p>
+	</div>
+</footer>
+	
+</body>

@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;900&family=Raleway:wght@100;300;500;700&display=swap');
+
+
+/* header start */
+
+body {
+	background-color: #ffffff;
+	color: black;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.header1 {
+	margin-bottom: -2.1%;
+	padding-left: 82%;
+}
+
+i1 {
+	padding-right: 10%;
+	padding-top: 3.5%;
+
+}
+
+i2 {
+	padding-top: 3.5%;
+	padding-right: 10%;
+}
+
+i3 {
+	padding-top: 3.5%;
+	padding-right: 10%;
+}
+
+i4 {
+	padding-top: 3.5%;
+	padding-right: 10%;
+}
+
+i5 {
+	padding-top: 3.5%;
+}
+
+.bxl-facebook:hover {
+	color: blue;
+}
+
+.bxl-youtube:hover {
+	color: red;
+}
+
+.bxl-linkedin:hover {
+	color: lightblue;
+}
+
+.bxl-twitter:hover {
+	color: #6dbcd5;
+}
+
+.bxl-blogger:hover {
+	color: darkorange;
+}
+
+.line {
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	top: 36px;
+
+	background: #E0E0E0;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.profile-section {
+	position: absolute;
+	width: 100%;
+	top: 37px;
+	background-color: #1f527b36;
+	padding-right: 2%;
+	/*padding-bottom: 2.5%;*/
+}
+
+.ser-bar {
+	list-style: none;
+	margin-bottom: 14px;
+}
+.ser-bar ul {
+	background-color: #80808030;
+	text-decoration: none;
+}
+
+.ser-bar li {
+	text-decoration: none;
+}
+
+
+.search-bar {
+	position: absolute;
+	left: 3%;
+	width: 370px;
+	border: 3px solid #827a7a;
+	color: #131313;
+	padding: 7px;
+	border-radius: 30px;
+}
+
+.bx-search-alt-2:before {
+	color: #565252;
+}
+
+.search-bar input {
+	background: transparent;
+	border: 0px;
+	outline: 0px;
+	width: 90%;
+	font-size: 19.6px;
+}
+
+.bx-search-alt-2 {
+	color: black;
+}
+
+.acc-cart-wishli {
+	/*padding-left: 78.5%;*/
+	align-items: center;
+	margin-left: 88%;
+	display: flex;
+	height: 45px;
+}
+
+
+.bx-user:before {
+	color: black;
+}
+
+/*.bx-user:hover {
+	color: gray;
+}*/
+
+.bx-cart:before {
+	color: black;
+}
+
+/*.bx-cart:hover {
+	color: rgba(63, 63, 120, 0.8);
+}*/
+
+.bx-heart::before{
+	color: black;
+}
+
+/*.bx-heart:hover {
+	color: rgba(63, 63, 120, 0.8);
+}*/
+
+.acc-cart-wishli a {
+	height: 35px;
+	width: 45px;
+	font-size: xx-large;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.acc-cart-wishli img {
+	height: 38px;
+	width: 39px;
+	padding-right: 12px;
+	padding-left: 19px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+
+.container {
+	padding-top:105px;
+	margin: auto;
+	overflow: hidden;
+	background: #ffffff;
+	left: 30px;
+}
+
+#main-header {
+	background-color: coral;
+	color: #fff;
+}
+
+
+#navbar {
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul {
+	padding: 10px;
+	list-style: none;
+	background-color: #1f527b;
+	margin-top: 7px;
+}
+
+#navbar li {
+	padding-left: 18px;
+	display: inline;
+}
+
+#navbar a:hover {
+	cursor: pointer;
+	background-color: #173F5F;
+}
+
+#navbar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	padding-right: 15px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+}
+
+#navbar a:hover {
+	color: #ffffff;
+}
+
+/* header end */
+
+
+
+
+/* books start */
+
+:root{
+    --bodyBack: #ffeaed;
+    --textColor: #1b2741;
+    --starColor: #f67034;
+    --sectionBack: #f7f6f9;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.whole{
+    min-height: 100vh;
+	overflow: auto;
+    display: grid;
+    place-content: center;
+	width: 100%;
+    align-self: center;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+	margin-top: 4%;
+	padding-bottom: 15%;
+}
+
+.container9{
+    width: 80vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: var(--textColor);
+	margin-top: 4%;
+	margin-bottom: 5%;
+}
+.products{
+    width: 100%;
+    align-self: center;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.product{
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 385px;
+    height: 175px%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    /*justify-content: space-around;*/
+	/*gap: 1em;*/
+    padding: 10px 8px 7px;
+	padding-left: 7rem;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.content p{
+	margin-top: 64px;
+	position: absolute;
+	margin-top: -32%;
+	font-size: 23px;
+}
+
+.content h3{
+	margin-bottom: 14px;
+	margin-top: 0px;
+}
+
+.nameaut {
+	margin-bottom: 50px;
+	margin-inline-start: 0px
+	align-self: start;
+	position: relative;
+}
+.product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.image{
+    width:8%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+	margin-right: 10px;
+}
+.image img{
+	width: 29%;
+	height: 90%;
+	position: absolute;
+	margin-left: -99px;
+}
+
+.bay{
+    position: absolute;
+    bottom: 14px;
+    right: 13px;
+}
+.bay{
+    padding: 4px 6px;
+    border-radius: 9px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.bay:hover{
+    transform: scale(1.1);
+}
+
+/* books end */
+
+
+
+
+/* footer start */
+
+footer {
+	padding-top: 5%;
+	background-color: #1b2741;
+	color: white;
+	font-size: 14px;
+}
+
+.container6 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #1b2741;
+	margin-left: 15px;
+}
+
+.about-us-sec {
+	padding-bottom: 1%;
+}
+
+#h4 {
+	padding-bottom: 1%;
+}
+
+#p {
+		font-size: 110%;
+}
+
+h4 {
+	text-align: left;
+	font-size: 25px;
+	height: 22px;
+	padding-top: 17px;
+	margin: -4px;
+	color: white;
+}
+.conwitus {
+	display: flex;
+	padding-bottom: 0.5%;
+	margin-top: 1.5em;
+}
+
+
+.conwitus li{
+	list-style: none;
+	color: white;
+	display: inline;
+}
+
+.bx {
+	color: #958d8d;
+}
+
+.cont-us ul {
+	padding-left: 0px;
+	list-style: none;
+	margin-top: 1.5em;
+}
+
+.cont-us a {
+	text-decoration: none;
+	color: white;
+}
+
+.conec-us {
+	padding-left: 19.5%;
+}
+
+.conec-us li{
+	list-style: none;
+	margin-right: 14px;
+}
+
+.conec-us bx{
+	color: red;
+}
+
+/* footer end */
+.django-whole{
+	padding-top: 20px;
+    background-color: #1f527b4f;
+    min-height: 80vh;
+    display: grid;
+    place-content: center;
+	font-family: 'Raleway', sans-serif;
+	/*overflow: auto;*/
+}
+.django-container{
+    width: 80vw;
+    height:96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	padding-bottom: 20px;
+}
+.django-header{
+    width: 100%;
+    text-align: center;
+}
+.django-header h1{
+    font-size: 4em;
+    text-transform: uppercase;
+    color: var(--textColor);
+	padding-bottom: 23px;
+}
+.django-products{
+    width: 120%;
+    align-self: center;
+    height: 83%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+	overflow: auto;
+}
+.django-product{
+    position: relative;
+    background-color: var(--sectionBack);
+    width: 270px;
+    height: 270px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 9px 10px 7px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.django-product:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.django-image{
+    width:100%;
+    height: 60%;
+    display: grid;
+    place-content: center;
+}
+.django-image img{
+	width: 103px;
+	height: 110%;
+}
+.django-namePrice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+	height: 0px;
+}
+.django-namePrice h3{
+    font-size: 2em;
+    text-transform: capitalize;
+    color: var(--textColor);
+	margin: 0;
+}
+.django-namePrice span{
+    font-size: 1.5em;
+    color: var(--starColor);
+}
+.django-product p{
+    font-size: 18px;
+    line-height: 25px;
+	height: 0px;
+}
+.django-stars svg{
+    font-size: 1.3em;
+    color: var(--starColor);
+}
+.django-bay{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.django-bay{
+    padding: 4px 6px 4px;
+	padding-left: 6px;
+	padding-right: 8px;
+    border-radius: 9px;
+    border: none;
+    background-color: var(--textColor);
+    color: var(--sectionBack);
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+}
+.django-bay:hover{
+    transform: scale(1.1);
+}

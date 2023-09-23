@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+<html lang="en" class="login-body">
+    <link rel="stylesheet" href="/static/css/indexresponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Signup page</title>
+    <body>
+        <div class="container7">
+            <label for="show" class="close-btn fas fa-times" title="close"></label>
+            <div class="text">
+                Create Account
+            </div>
+            {% if error_messages %}
+            <div class="error-messages">
+                {% for message in error_messages %}
+                <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <form action="/signup/" method="POST">
+                {% csrf_token %}
+                <div class="data">
+                    <label>Email</label>
+                    <input type="text" name="email" required>
+                </div>
+                <div class="data">
+                    <label>Password</label>
+                    <input type="password" name="password" required/>                   
+                </div>
+                <div class="data">
+                    <label>Retype Password</label>
+                    <input type="password" name="retype_password" required/>                 
+                </div>
+                <div class="btn1">
+                    <div class="inner"></div>
+                    <button type="submit">Sign up</button>
+                </div>
+                <div class="signup-link">
+                    Already have an account? <a href="{% url 'login' %}">login</a>
+                </div>
+            </form>
+        </div>
+    </body>     
+</html>
